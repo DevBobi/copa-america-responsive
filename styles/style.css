@@ -266,7 +266,9 @@ footer {
 /* Footer Sectoin CSS Ends 
 ==========================*/
 
-/* Media Query Secton for Mobile Devices under 688px */
+/* Media Query Secton for Mobile Devices under 688px 
+====================================================*/
+
 @media only screen and (max-width: 688px) {
     header {
         width: 100%;
@@ -274,9 +276,7 @@ footer {
     }
     .banner-container {
         flex-direction: column;
-        margin-top: 80px;
     }
-
     .banner-title h1 {
         font-size: 30px;
     }
