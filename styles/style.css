@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Titillium Web', sans-serif;
-    /* overflow: hidden; */
+    overflow-x: hidden;
 }
 
 h1,
@@ -217,3 +217,41 @@ Player Album Section CSS Starts
     width: 400px;
     height: 270px;
 }
+/* Footer Section CSS Starts 
+===========================*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 140px auto;
+}
+
+.footer-img img {
+    width: 484px;
+    margin-bottom: 20px;
+}
+
+.fab {
+    margin-right: 14px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background: lightgray;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.fab:hover {
+    color: white;
+    background-color: #2D25A0;
+    transform: scale(1.2);
+}
+
+.copyright p {
+    font-size: 18px;
+}
+
+/* Footer Sectoin CSS Ends 
+==========================*/
