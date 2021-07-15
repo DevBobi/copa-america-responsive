@@ -91,15 +91,25 @@ header {
 }
 
 .banner-picture img {
+    margin-top: 36px;
     width: 556.01px;
     height: 438px;
 
 }
-
+@keyframes img-pulse {
+    50% {
+      transform:scale(0.9);
+    }
+    100% {
+      transform:scale(1.0);
+    }
+  }
 .banner-picture img:hover {
-    -webkit-transform: rotateZ(30deg);
-    -ms-transform: rotateZ(30deg);
-    transform: rotateZ(30deg);
+    animation-name: img-pulse;
+      animation-duration: 0.9s;
+      animation-timing-function: ease-out;
+      animation-iteration-count:infinite;
+      animation-direction:reverse;
 }
 
 /* ===========================
